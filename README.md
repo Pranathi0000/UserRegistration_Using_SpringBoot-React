@@ -1,3 +1,51 @@
+# User Login and Registration App
+
+This project is a simple web application for user authentication, allowing users to register and login using Spring for the backend and React for the frontend.
+
+## Features
+
+- User registration with name, email, and password.
+- User login with email and password.
+- Frontend created with React for a user-friendly interface.
+- Backend created with Spring for handling user data and authentication.
+
+## Technologies Used
+
+- Frontend:
+  - React
+  - Axios (for handling HTTP requests)
+  - React Router (for routing)
+  - react-toastify (for displaying notifications)
+
+- Backend:
+  - Spring Boot
+  - Spring Data JPA (for data persistence)
+
+## Setup Instructions
+
+### Frontend (React)
+
+1. Navigate to the `frontend` directory.
+2. Install dependencies using `npm install`.
+3. Start the development server with `npm start`.
+
+### Backend (Spring Boot)
+
+1. Import the backend project into your preferred IDE (Eclipse, IntelliJ, etc.).
+2. Configure the database settings in `application.properties`.
+3. Run the Spring Boot application.
+
+## Folder Structure
+
+- `frontend`: Contains the React frontend code.
+- `backend`: Contains the Spring Boot backend code.
+
+## Usage
+
+- Access the application by visiting the URL provided by the React development server (usually `http://localhost:3000`).
+- Use the provided endpoints (`/registration` and `/login`) for user registration and login respectively.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
